@@ -12,6 +12,7 @@
     "a2a:cli": "npx tsx src/cli.ts",
     "a2a:cli:cpu-info": "npx tsx src/cli.ts http://localhost:41242",
     "a2a:cli:echarts-data": "npx tsx src/cli.ts http://localhost:41243",
+    "a2a:cli:multi": "npx tsx src/cli.ts http://localhost:41242 http://localhost:41243",
     "agents:movie-agent": "npx tsx src/agents/movie-agent/index.ts",
     "agents:coder": "npx tsx src/agents/coder/index.ts",
     "agents:content-editor": "npx tsx src/agents/content-editor/index.ts",
